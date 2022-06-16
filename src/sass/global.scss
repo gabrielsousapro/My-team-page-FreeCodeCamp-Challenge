@@ -17,9 +17,8 @@
 
     --text-xs: 1.2rem;
     --text-sm: 1.4rem;
-    --text-md: 1.6rem;
-    --text-lg: 2.4rem;
-    --text-xl: 3.6rem;
+    --text-md: 1.8rem;
+    --text-lg: 3.6rem;
 
     --line-height: 1.3em;
 
@@ -29,7 +28,7 @@
 }
 
 body {
-    font-size: var(--font-poppins);
+    font-family: var(--font-poppins);
     background-color: var(--background-color);
 }
 
