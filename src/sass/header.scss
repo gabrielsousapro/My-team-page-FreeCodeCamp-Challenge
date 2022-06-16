@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 11rem;
+    padding-bottom: 9.6rem;
+    
+    .header__title {
+        width: 50%;
+        font-family: var(--font-pt-serif);
+        font-weight: 700;
+        font-size: var(--text-lg);
+        line-height: var(--line-height);
+        letter-spacing: -4.5%;
+
+    }
+
+    .header__desc {
+        display: flex;
+        flex-direction: column;
+        max-width: 38rem;
+
+        .header__desc__title {
+            font-weight: 600;
+            font-size: var(--text-md);
+            line-height: var(--line-height);
+            margin-bottom: 1rem;
+        }
+
+        .header__desc__paragraph {
+            font-weight: 400;
+            font-size: var(--text-md);
+        }
+    }
+}
