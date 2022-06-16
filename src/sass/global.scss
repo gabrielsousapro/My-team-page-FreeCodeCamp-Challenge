@@ -19,8 +19,9 @@
     --text-sm: 1.4rem;
     --text-md: 1.6rem;
     --text-lg: 2.4rem;
+    --text-xl: 3.6rem;
 
-    --line-height: 1.5em;
+    --line-height: 1.3em;
 
     --space-sm: .8rem;
     --space-md: 1.6rem;
@@ -34,4 +35,5 @@ body {
 
 .wrapper {
     max-width: 924px;
+    margin: 0 auto;
 }
