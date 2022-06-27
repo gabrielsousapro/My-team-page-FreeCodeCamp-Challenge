@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 115px;
+    margin-bottom: 2.4rem;
+    text-align: center;
+    color: var(--footer-color);
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: var(--text-sm);
+        line-height: var(--line-height); 
+
+        a {
+            color: var(--footer-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}
