@@ -1,0 +1,44 @@
+.crew-section {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    row-gap: 27px;
+
+    .crew-section__item {
+        position: relative;
+
+        img {
+            max-width: 100%;
+            padding-right: 8rem;
+        }
+
+        figcaption {
+            position: relative;
+            bottom: 0;
+            font-size: var(--text-md);
+            font-weight: 600;
+            line-height: var(--line-height);
+            font-family: 'Poppins', sans-serif;
+            margin-top: 7.5px;
+        }
+
+        .job-desc {
+            position: absolute;
+            display: inline-block;
+            width: 150px;
+            top: 0;
+            left: 100%;
+            transform-origin: 0 0;
+            transform: rotate(90deg) translateY(6rem);
+            font-family: 'PT Serif', serif;
+            font-weight: 400;
+            font-size: var(--text-sm);
+            line-height: var(--line-height);
+            text-transform: uppercase;
+            color: var(--text-color);
+        }
+    }
+
+    .crew-section__item__top_space {
+        margin-top: 84px;
+    }
+}
